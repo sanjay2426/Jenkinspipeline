@@ -2,7 +2,7 @@ pipeline{
     
     tools{
         // what tool version to use for build stages
-        maven 'mymaven'
+        maven 'timepass'
     }
     
     agent any
