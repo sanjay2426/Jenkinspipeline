@@ -61,7 +61,7 @@ pipeline{
              stage('Deploy')
         {
             steps{
-            sh 'mvn deploy'
+            echo 'This is Timepass stage'
             }
         }
     }
